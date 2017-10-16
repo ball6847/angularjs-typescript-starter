@@ -2,7 +2,6 @@ declare var $: any
 declare var PREFIX: string
 
 import { NgModule } from 'ng-metadata/core'
-import 'angular-ui-router'
 import { provideState } from './app-routing'
 import { AppComponent } from './app.component'
 import { HomeComponent } from './home/home.component'
