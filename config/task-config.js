@@ -22,14 +22,16 @@ module.exports = {
     entry: {
       // files paths are relative to
       // javascripts.dest in path-config.json
-      app: ["./app.ts"],
+      app: ["./main.ts"],
     },
     provide: {
-      $: "jquery",
-      jQuery: "jquery",
-      "window.jQuery": "jquery",
+      // $: "jquery",
+      // jQuery: "jquery",
+      // "window.jQuery": "jquery",
+      // angular: "angular",
+      // "window.angular": "angular"
     },
-    extensions: ['.ts', '.tsx'],
+    extensions: ['.ts', '.tsx', 'js', 'jsx'],
     loaders: [
       {
         test: /\.html$/,

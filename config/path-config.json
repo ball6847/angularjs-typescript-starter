@@ -10,7 +10,7 @@
 
   "static": {
     "src": "static",
-    "dest": "./"
+    "dest": "static"
   },
 
   "javascripts": {
