@@ -3,24 +3,29 @@ declare var PREFIX: string
 
 import { NgModule } from 'ng-metadata/core'
 import 'angular-ui-router'
+import { provideState } from './app-routing'
 import { AppComponent } from './app.component'
-
+import { HomeComponent } from './home/home.component'
+import { NavComponent } from './nav/nav.component'
+import { AboutComponent } from './about/about.component'
 
 const prefixProvider = {
   provide: "PREFIX",
   useValue: PREFIX || '',
 }
 
-// -------------------------------------------------------------------
-
 @NgModule({
   imports: [
     'ui.router',
   ],
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    NavComponent,
+    AboutComponent,
   ],
   providers: [
+    provideState,
     prefixProvider,
   ],
 })
