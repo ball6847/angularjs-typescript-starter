@@ -1,9 +1,7 @@
-/app/cache/*
-/app/tmp/*
 node_modules
 yarn-error.log
 
 # will be replaced by build
-/template/assets
+/public
 
 !.gitkeep
