@@ -1,7 +1,7 @@
 {
   "name": "angularjs-typescript-starter",
   "version": "1.0.0",
-  "description": "Blendid angularjs starter (typescript + ng-metadata)",
+  "description": "Blendid powered angularjs starter (typescript + ng-metadata)",
   "dependencies": {
     "angular": "^1.6.6",
     "angular-ui-router": "^0.4.3",
